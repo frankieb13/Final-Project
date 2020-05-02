@@ -15,6 +15,9 @@
 		DEA206AC245B368400653FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA206AA245B368400653FB4 /* LaunchScreen.storyboard */; };
 		DEA206B7245B368400653FB4 /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA206B6245B368400653FB4 /* Final_ProjectTests.swift */; };
 		DEA206C2245B368400653FB4 /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA206C1245B368400653FB4 /* Final_ProjectUITests.swift */; };
+		DEA206D0245CC85900653FB4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA206CF245CC85900653FB4 /* WebViewController.swift */; };
+		DEA206D2245CC94E00653FB4 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA206D1245CC94E00653FB4 /* TBViewController.swift */; };
+		DEA206D4245CCB3F00653FB4 /* ViewingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA206D3245CCB3F00653FB4 /* ViewingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		DEA206BD245B368400653FB4 /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA206C1245B368400653FB4 /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		DEA206C3245B368400653FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA206CF245CC85900653FB4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		DEA206D1245CC94E00653FB4 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
+		DEA206D3245CCB3F00653FB4 /* ViewingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				DEA206A1245B368300653FB4 /* SceneDelegate.swift */,
 				DEA206A3245B368300653FB4 /* ViewController.swift */,
 				DEA206A5245B368300653FB4 /* Main.storyboard */,
+				DEA206D3245CCB3F00653FB4 /* ViewingViewController.swift */,
+				DEA206D1245CC94E00653FB4 /* TBViewController.swift */,
+				DEA206CF245CC85900653FB4 /* WebViewController.swift */,
 				DEA206A8245B368400653FB4 /* Assets.xcassets */,
 				DEA206AA245B368400653FB4 /* LaunchScreen.storyboard */,
 				DEA206AD245B368400653FB4 /* Info.plist */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA206D4245CCB3F00653FB4 /* ViewingViewController.swift in Sources */,
+				DEA206D2245CC94E00653FB4 /* TBViewController.swift in Sources */,
 				DEA206A4245B368300653FB4 /* ViewController.swift in Sources */,
 				DEA206A0245B368300653FB4 /* AppDelegate.swift in Sources */,
 				DEA206A2245B368300653FB4 /* SceneDelegate.swift in Sources */,
+				DEA206D0245CC85900653FB4 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

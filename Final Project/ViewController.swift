@@ -9,7 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var outputLabel: UILabel!
+    
+    @IBAction func foundTap(_ sender: Any) {
+         outputLabel.text = "You tapped for Mustard!"
+    }
+    
+    
+    @IBAction func foundSwipe(_ sender: Any) {
+         outputLabel.text = "You swiped for Ketchup!"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,4 +28,5 @@ class ViewController: UIViewController {
 
 
 }
+
 
